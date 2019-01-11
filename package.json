@@ -1,0 +1,16 @@
+{
+  "name": "@schornio/gulp-storyblok-components",
+  "version": "0.0.0",
+  "description": "Manages storyblok components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Schorn <thomas@schorn.io>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "through2": "^3.0.0"
+  }
+}
