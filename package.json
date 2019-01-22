@@ -1,16 +1,21 @@
 {
-  "name": "@schornio/gulp-storyblok-components",
+  "name": "@schornio/gulp-storyblok",
   "version": "1.0.0",
-  "description": "Manages storyblok components",
+  "description": "Manages storyblok",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "storyblok-componens": "./src/getComponents.js",
+    "storyblok-datasources": "./src/getDatasources.js"
   },
   "author": "Thomas Schorn <thomas@schorn.io>",
   "license": "MIT",
   "dependencies": {
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
-    "through2": "^3.0.0"
+    "through2": "^3.0.0",
+    "yargs": "^12.0.5"
   }
 }
